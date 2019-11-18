@@ -1,9 +1,9 @@
-# Just-do-it
-Individual project called "Just od it"
+# Your-life-site
+40. Individual project called "Just od it"
 
-# repo -> https://github.com/MichalAW/Just-do-it.git
+# repo -> https://github.com/MichalAW/Your-life-site.git
 
-# link -> https://michalaw.github.io/Just-do-it/
+# link -> 
 
 # Script
 1. Download repository
