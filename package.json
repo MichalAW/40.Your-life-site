@@ -1,0 +1,41 @@
+{
+  "name": "12.Just-do-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "prewatch": "npm run clean",
+    "watch": "parcel src/index.html --open --no-autoinstall --port 8080",
+    "prebuild": "npm run clean",
+    "build": "parcel build src/index.html --out-dir docs --public-url /Just-do-it",
+    "clean": "rimraf dist",
+    "code-quality": "npm run format && npm run lint",
+    "format": "prettier --write \"src/**/*.{js,html,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichalAW/Just-do-it.git"
+  },
+  "keywords": [],
+  "author": "MichalAW michal.wanta@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalAW/Just-do-it/issues"
+  },
+  "homepage": "https://github.com/MichalAW/Just-do-it#readme",
+  "devDependencies": {
+    "lint-staged": "^8.1.0",
+    "parcel-bundler": "^1.11.0",
+    "posthtml-include": "^1.2.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
+    "rimraf": "^2.6.3",
+    "sass": "^1.15.3"
+  },
+  "dependencies": {
+    "any-observable": "^0.4.0",
+    "heroku": "^7.30.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.6"
+  }
+}

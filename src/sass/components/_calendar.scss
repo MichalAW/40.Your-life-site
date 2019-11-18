@@ -1,0 +1,44 @@
+// calendar
+.calendar {
+  padding: 12px 4px;
+  border: 0.6px solid $body-color;
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  input {
+    border: none;
+  }
+
+  .icon-calendar {
+    margin-right: 30px;
+  }
+}
+
+.vertical-line {
+  background-color: $body-color;
+  position: absolute;
+  height: 23px;
+  width: 1px;
+  left: 43%;
+  top: 19%;
+}
+
+@media (max-width: 799px) {
+  .calendar {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: none;
+
+    input {
+      text-align: center;
+      border: 0.6px solid #b8b8b8;
+    }
+
+    span {
+      display: none;
+    }
+  }
+}
