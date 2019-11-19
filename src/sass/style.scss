@@ -1,23 +1,662 @@
-@import "variables.scss";
-@import "normalize.scss";
-@import "icons.scss";
+@import 'variables';
+@import 'normalize';
 
-@import "components/bg-alpha.scss";
-@import "components/calendar.scss";
-@import "components/chart.scss";
-@import "components/data.scss";
-@import "components/elements.scss";
-@import "components/links.scss";
-@import "components/main.scss";
-@import "components/topbar.scss";
-@import "components/sidebar.scss";
+.about {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+.topbar {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+    float: right;
+    text-transform: uppercase;
+    padding-top: 20px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    .toggle-btn {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    display: none;
+        span {
+          display: block;
+          width: 30px;
+          height: 5px;
+          background: $white-color;
+          margin: 5px 0;
+        }
+    }
 
-@font-face {
-  font-family: "Glyphter";
-  src: url("/fonts/Glyphter.eot") format("embedded-opentype"),
-    url("/fonts/Glyphter.woff") format("woff"),
-    url("/fonts/Glyphter.ttf") format("truetype"),
-    url("/fonts/Glyphter.svg") format("svg");
+    ul {
+    	li {
+        	display: block;
+        	float: left;
+    	}
+    
+	    a {
+	        float: right;
+	        color: $topbar-a-color;
+	        text-align: center;
+	        padding: 0 16px;
+	        text-decoration: none;
+	        font-size: 17px;
+	        &:hover {
+	            color: $orange-color;
+	        }
+	        &.active {
+	            color: $white-color;
+	        }
+	    }
+	}
+}
+// hamburger button
+.button-container {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 10px 10px;
+}
+
+.button-container h3 {
+  display: inline;
+}
+
+.welcome {
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+        color: $white-color;
+        font-family: $font-montserrat;
+        font-size: 55px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    h3 {
+        color: $white-color;
+        font-family: $font-PT;
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-bottom: 27px;
+        font-weight: 400;
+    }
+
+    .button-welcome {
+        padding-top: 37.6px;
+    }
+}
+
+.services {
+    padding-top: 46px; 
+    padding-bottom: 120px;
+}
+
+.services-header {
+    margin-bottom: 84px;
+
+    h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-PT;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+.services-main-paragraph {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    color: $black-color;
+    font-family: $font-montserrat;
+    font-weight: 700;
+}
+
+.services-paragraph {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: $grey-paragraph;
+    font-family: $font-Roboto;
+    font-weight: 400;
+}
+
+.logo {
+    width: 99px;
+    height: 38px;
+    line-height: 41px;
+    margin-left: 110px;
+    margin-top: 18px;
+    position: absolute;
+}
+
+.btn {
+    width: 240px;
+    height: 65px;
+    background-color: $orange-color;
+    color: $white-color;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.background-portfolio {
+    background-color: $grey-color;
+}
+
+.portfolio-padding {
+    padding-bottom: 30px;
+}
+
+.portfolio {
+    padding: 50px 0 106px 0;
+    h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
+    }
+
+    .portfolio-p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-PT;
+        font-weight: 400;
+        font-style: italic;
+        padding-bottom: 51px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.portfolio-background {
+    background-color: $white-color; 
+}
+
+.portfolio-header {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: $portfolio-header;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    padding-top: 23px;
+    margin: 0;
+}
+
+.portfolio-paragraph {
+    font-size: 14px;
+    color: $portfolio-paragraph;
+    font-family: $font-PT;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.absolute img {
+    padding-bottom: 20px;
+}
+
+.calendar h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: $black-color;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    text-align: center;
+}
+
+.calendar-header  {
+    padding-bottom: 90px;
+    h2 {
+        padding-top: 105px;
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
+    }
+
+    p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-PT;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+.calendar-background {
+    padding-bottom: 115px;
+}
+
+.vertical-line {
+    border-left: thick solid $thick-color;
+    position: absolute;
+    height: 400px;
+    display: block;
+    z-index: -1;
+}
+
+.calendar-row {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.calendar-left-text {
+    display: flex;
+    justify-content: center;
+    max-width: 37.9%;
+    margin-right: auto;
+    h5 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+        text-align: right;
+    }
+
+      p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: $grey-paragraph;
+        font-family: $font-Roboto;
+        font-weight: 400;
+        text-align: right;
+        padding-left: 120px;
+    }
+}
+
+.calendar-right-text {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 37.9%;
+    margin-left: auto;
+    h5 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color: $grey-paragraph;
+        font-family: $font-Roboto;
+        font-weight: 400;
+        text-align: left;
+        padding-right: 120px;
+    }
+}
+
+.team-background {
+    background-color: $thick-color;  
+}
+
+.team {
+    text-align: center;
+
+    h6 {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 50px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+        letter-spacing: -2px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-PT;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+.team-h {
+    padding-top: 65px;
+    padding-bottom: 84px;
+}
+
+.team-p {
+    padding: 19px 0 100px 0;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: $grey-paragraph;
+    font-family: $font-Roboto;
+    font-weight: 400;
+}
+
+.socialmedia-team {
+    padding: 0 59px;
+    display: inline-block;
+
+    li {
+        list-style: none;
+        float: left;
+        margin-right: 11px;
+
+        a {
+            text-decoration: none;
+        }
+
+        i {
+            background-color: $grey-color;
+            color: $black-color;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            padding-top: 10px;
+            border: 3px solid $black-i-color;
+        }
+    }
+}
+// hover for socialmedia
+.fa-twitter:hover {
+    background-color: $twitter-color;
+}
+
+.fa-facebook-f:hover {
+    background-color: $facebook-color;
+}
+
+.fa-google:hover {
+    background-color: $google-color;
+}
+
+.fa-pinterest-p:hover {
+    background-color: $pinterest-color;
+}
+
+.sponsor-background {
+    width: 100%;
+    padding: 57px 0;
+}
+
+.contact-background {
+    background-image: url("../imgpng/backgroundcontact.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+}
+
+.contact {
+    h6 {
+        padding: 50px 0 0;
+        color: $white-color;
+        font-family: $font-montserrat;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+
+     p {
+        font-size: 16px;
+        color:$grey-paragraph;
+        font-family: $font-PT;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+.btn-background {
+    padding-top: 11px;
+}
+
+.socialmedia {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    li {
+        list-style: none;
+        float: left;
+        margin-right: 15px;
+
+        a {
+            text-decoration: none;
+
+            i {
+                background-color: $black-color;
+                color: $white-color;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .welcome {
+    display: block;
+        h1 {
+            font-size: 50px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        .button-welcome {
+            padding-top: 50px;
+        }
+    }
+
+    footer p {
+       margin-bottom: 0;
+    }
+
+    .socialmedia {
+        margin: 0 auto;
+    }
+
+    .socialmedia-team {
+        display: inline-block;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+    }
+
+    .calendar-left-text {
+        max-width: 34.5%;
+        p {
+            padding-left: 35px;
+        }
+    }
+    .calendar-right-text {
+        max-width: 34.5%;
+        p {
+            padding-right: 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+    display: block;
+        h1 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .button-welcome {
+            padding-top: 100px;
+        }
+    }
+
+    // topbar action
+    .topbar.active {
+        ul {
+            position: absolute;
+            right: -15px;
+            top: 55px; 
+            li {
+                display: block;
+                float: none;
+            }
+        }
+    }
+
+    // responsive topbar
+    .topbar {
+        right: 20px;
+        .toggle-btn {
+            display: block;
+        }
+    }
+
+    .topbar ul li a {
+        display: none;
+    }
+
+    .topbar.active {
+        ul li a {
+            display: inline-block;
+        }
+    }
+    
+    .logo {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        margin: 10px auto 0;
+    }
+
+    .calendar-row {
+        min-height: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .absolute {
+        position: static;
+    } 
+
+    .vertical-line {
+        display: none;
+    }
+
+    .services p {
+        padding: 0 30px;
+    }
+
+    .calendar-left-text {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+        h5 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            padding: 0 30px;
+        }
+    }
+
+    .calendar-right-text {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+        h5 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            padding: 0 30px;
+        }
+    }
+
+    footer {
+        padding: 25px 0 10px;
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    .socialmedia {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        top: 0;
+    }  
+}
+
+@media only screen and (max-width: 468px) {
+    .welcome {
+        display: block;
+        h1 {
+            font-size: 32px;
+        }
+        
+        h3 {
+            font-size: 26px;
+        }
+    }
+
+    .logo {
+        display: block;
+        position: relative;
+        text-align: center;
+    }
 }
