@@ -1,662 +1,661 @@
-@import 'variables';
-@import 'normalize';
+@import "variables";
+@import "normalize";
 
 .about {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .topbar {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 41px;
-    float: right;
-    text-transform: uppercase;
-    padding-top: 20px;
-    z-index: 1;
-    position: absolute;
-    right: 0;
-    top: 0;
-    .toggle-btn {
-    cursor: pointer;
-    float: right;
-    position: relative;
-    display: none;
-        span {
-          display: block;
-          width: 30px;
-          height: 5px;
-          background: $white-color;
-          margin: 5px 0;
-        }
-    }
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 41px;
+	float: right;
+	text-transform: uppercase;
+	padding-top: 20px;
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	top: 0;
+	.toggle-btn {
+		cursor: pointer;
+		float: right;
+		position: relative;
+		display: none;
+		span {
+			display: block;
+			width: 30px;
+			height: 5px;
+			background: $white-color;
+			margin: 5px 0;
+		}
+	}
 
-    ul {
-    	li {
-        	display: block;
-        	float: left;
-    	}
-    
-	    a {
-	        float: right;
-	        color: $topbar-a-color;
-	        text-align: center;
-	        padding: 0 16px;
-	        text-decoration: none;
-	        font-size: 17px;
-	        &:hover {
-	            color: $orange-color;
-	        }
-	        &.active {
-	            color: $white-color;
-	        }
-	    }
+	ul {
+		li {
+			display: block;
+			float: left;
+		}
+
+		a {
+			float: right;
+			color: $topbar-a-color;
+			text-align: center;
+			padding: 0 16px;
+			text-decoration: none;
+			font-size: 17px;
+			&:hover {
+				color: $orange-color;
+			}
+			&.active {
+				color: $white-color;
+			}
+		}
 	}
 }
 // hamburger button
 .button-container {
-  display: inline-block;
-  width: 100%;
-  padding: 20px 10px 10px;
+	display: inline-block;
+	width: 100%;
+	padding: 20px 10px 10px;
 }
 
 .button-container h3 {
-  display: inline;
+	display: inline;
 }
 
 .welcome {
-    margin-top: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    h1 {
-        color: $white-color;
-        font-family: $font-montserrat;
-        font-size: 55px;
-        font-weight: 700;
-        text-transform: uppercase;
-        width: 100%;
-    }
+	margin-top: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	h1 {
+		color: $white-color;
+		font-family: $font-montserrat;
+		font-size: 55px;
+		font-weight: 700;
+		text-transform: uppercase;
+		width: 100%;
+	}
 
-    h3 {
-        color: $white-color;
-        font-family: $font-PT;
-        font-size: 40px;
-        letter-spacing: -1px;
-        margin-bottom: 27px;
-        font-weight: 400;
-    }
+	h3 {
+		color: $white-color;
+		font-family: $font-PT;
+		font-size: 40px;
+		letter-spacing: -1px;
+		margin-bottom: 27px;
+		font-weight: 400;
+	}
 
-    .button-welcome {
-        padding-top: 37.6px;
-    }
+	.button-welcome {
+		padding-top: 37.6px;
+	}
 }
 
 .services {
-    padding-top: 46px; 
-    padding-bottom: 120px;
+	padding-top: 46px;
+	padding-bottom: 120px;
 }
 
 .services-header {
-    margin-bottom: 84px;
+	margin-bottom: 84px;
 
-    h2 {
-        font-size: 40px;
-        letter-spacing: -1px;
-        line-height: 75px;
-        color: $black-color;
-        font-family: $font-montserrat;
-        font-weight: 700;
-    }
+	h2 {
+		font-size: 40px;
+		letter-spacing: -1px;
+		line-height: 75px;
+		color: $black-color;
+		font-family: $font-montserrat;
+		font-weight: 700;
+	}
 
-    p {
-        font-size: 16px;
-        color: $grey-paragraph;
-        font-family: $font-PT;
-        font-weight: 400;
-        font-style: italic;
-    }
+	p {
+		font-size: 16px;
+		color: $grey-paragraph;
+		font-family: $font-PT;
+		font-weight: 400;
+		font-style: italic;
+	}
 }
 
 .services-main-paragraph {
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 75px;
-    color: $black-color;
-    font-family: $font-montserrat;
-    font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 75px;
+	color: $black-color;
+	font-family: $font-montserrat;
+	font-weight: 700;
 }
 
 .services-paragraph {
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: $grey-paragraph;
-    font-family: $font-Roboto;
-    font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: $grey-paragraph;
+	font-family: $font-Roboto;
+	font-weight: 400;
 }
 
 .logo {
-    width: 99px;
-    height: 38px;
-    line-height: 41px;
-    margin-left: 110px;
-    margin-top: 18px;
-    position: absolute;
+	width: 99px;
+	height: 38px;
+	line-height: 41px;
+	margin-left: 110px;
+	margin-top: 18px;
+	position: absolute;
 }
 
 .btn {
-    width: 240px;
-    height: 65px;
-    background-color: $orange-color;
-    color: $white-color;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 100px;
-
+	width: 240px;
+	height: 65px;
+	background-color: $orange-color;
+	color: $white-color;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 100px;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .background-portfolio {
-    background-color: $grey-color;
+	background-color: $grey-color;
 }
 
 .portfolio-padding {
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .portfolio {
-    padding: 50px 0 106px 0;
-    h2 {
-        font-size: 40px;
-        letter-spacing: -1px;
-        line-height: 75px;
-    }
+	padding: 50px 0 106px 0;
+	h2 {
+		font-size: 40px;
+		letter-spacing: -1px;
+		line-height: 75px;
+	}
 
-    .portfolio-p {
-        font-size: 16px;
-        color: $grey-paragraph;
-        font-family: $font-PT;
-        font-weight: 400;
-        font-style: italic;
-        padding-bottom: 51px;
-    }
+	.portfolio-p {
+		font-size: 16px;
+		color: $grey-paragraph;
+		font-family: $font-PT;
+		font-weight: 400;
+		font-style: italic;
+		padding-bottom: 51px;
+	}
 
-    img {
-        width: 100%;
-    }
+	img {
+		width: 100%;
+	}
 }
 
 .portfolio-background {
-    background-color: $white-color; 
+	background-color: $white-color;
 }
 
 .portfolio-header {
-    font-size: 18px;
-    letter-spacing: 0px;
-    color: $portfolio-header;
-    font-family: $font-montserrat;
-    font-weight: 700;
-    padding-top: 23px;
-    margin: 0;
+	font-size: 18px;
+	letter-spacing: 0px;
+	color: $portfolio-header;
+	font-family: $font-montserrat;
+	font-weight: 700;
+	padding-top: 23px;
+	margin: 0;
 }
 
 .portfolio-paragraph {
-    font-size: 14px;
-    color: $portfolio-paragraph;
-    font-family: $font-PT;
-    font-weight: 400;
-    font-style: italic;
-    padding-bottom: 25px;
+	font-size: 14px;
+	color: $portfolio-paragraph;
+	font-family: $font-PT;
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 25px;
 }
 
 .absolute {
-    position: absolute;
+	position: absolute;
 }
 
 .absolute img {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .calendar h2 {
-    font-size: 40px;
-    letter-spacing: -1px;
-    line-height: 75px;
-    color: $black-color;
-    font-family: $font-montserrat;
-    font-weight: 700;
-    text-align: center;
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 75px;
+	color: $black-color;
+	font-family: $font-montserrat;
+	font-weight: 700;
+	text-align: center;
 }
 
-.calendar-header  {
-    padding-bottom: 90px;
-    h2 {
-        padding-top: 105px;
-        font-size: 40px;
-        letter-spacing: -1px;
-        line-height: 75px;
-    }
+.calendar-header {
+	padding-bottom: 90px;
+	h2 {
+		padding-top: 105px;
+		font-size: 40px;
+		letter-spacing: -1px;
+		line-height: 75px;
+	}
 
-    p {
-        font-size: 16px;
-        color: $grey-paragraph;
-        font-family: $font-PT;
-        font-weight: 400;
-        font-style: italic;
-    }
+	p {
+		font-size: 16px;
+		color: $grey-paragraph;
+		font-family: $font-PT;
+		font-weight: 400;
+		font-style: italic;
+	}
 }
 
 .calendar-background {
-    padding-bottom: 115px;
+	padding-bottom: 115px;
 }
 
 .vertical-line {
-    border-left: thick solid $thick-color;
-    position: absolute;
-    height: 400px;
-    display: block;
-    z-index: -1;
+	border-left: thick solid $thick-color;
+	position: absolute;
+	height: 400px;
+	display: block;
+	z-index: -1;
 }
 
 .calendar-row {
-    display: flex;
-    justify-content: center;
-    min-height: 300px;
+	display: flex;
+	justify-content: center;
+	min-height: 300px;
 }
 
 .calendar-left-text {
-    display: flex;
-    justify-content: center;
-    max-width: 37.9%;
-    margin-right: auto;
-    h5 {
-        font-size: 18px;
-        letter-spacing: 0px;
-        color: $black-color;
-        font-family: $font-montserrat;
-        font-weight: 700;
-        text-align: right;
-    }
+	display: flex;
+	justify-content: center;
+	max-width: 37.9%;
+	margin-right: auto;
+	h5 {
+		font-size: 18px;
+		letter-spacing: 0px;
+		color: $black-color;
+		font-family: $font-montserrat;
+		font-weight: 700;
+		text-align: right;
+	}
 
-      p {
-        font-size: 14px;
-        letter-spacing: 0px;
-        color: $grey-paragraph;
-        font-family: $font-Roboto;
-        font-weight: 400;
-        text-align: right;
-        padding-left: 120px;
-    }
+	p {
+		font-size: 14px;
+		letter-spacing: 0px;
+		color: $grey-paragraph;
+		font-family: $font-Roboto;
+		font-weight: 400;
+		text-align: right;
+		padding-left: 120px;
+	}
 }
 
 .calendar-right-text {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 37.9%;
-    margin-left: auto;
-    h5 {
-        font-size: 18px;
-        letter-spacing: 0px;
-        color: $black-color;
-        font-family: $font-montserrat;
-        font-weight: 700;
-        text-align: left;
-    }
+	display: flex;
+	justify-content: flex-start;
+	max-width: 37.9%;
+	margin-left: auto;
+	h5 {
+		font-size: 18px;
+		letter-spacing: 0px;
+		color: $black-color;
+		font-family: $font-montserrat;
+		font-weight: 700;
+		text-align: left;
+	}
 
-    p {
-        font-size: 14px;
-        letter-spacing: 0px;
-        color: $grey-paragraph;
-        font-family: $font-Roboto;
-        font-weight: 400;
-        text-align: left;
-        padding-right: 120px;
-    }
+	p {
+		font-size: 14px;
+		letter-spacing: 0px;
+		color: $grey-paragraph;
+		font-family: $font-Roboto;
+		font-weight: 400;
+		text-align: left;
+		padding-right: 120px;
+	}
 }
 
 .team-background {
-    background-color: $thick-color;  
+	background-color: $thick-color;
 }
 
 .team {
-    text-align: center;
+	text-align: center;
 
-    h6 {
-        font-size: 16px;
-        letter-spacing: 0px;
-        line-height: 50px;
-        color: $black-color;
-        font-family: $font-montserrat;
-        font-weight: 700;
-        text-align: center;
-    }
+	h6 {
+		font-size: 16px;
+		letter-spacing: 0px;
+		line-height: 50px;
+		color: $black-color;
+		font-family: $font-montserrat;
+		font-weight: 700;
+		text-align: center;
+	}
 
-    h2 {
-        font-size: 40px;
-        letter-spacing: -2px;
-        color: $black-color;
-        font-family: $font-montserrat;
-        font-weight: 700;
-    }
+	h2 {
+		font-size: 40px;
+		letter-spacing: -2px;
+		color: $black-color;
+		font-family: $font-montserrat;
+		font-weight: 700;
+	}
 
-    p {
-        font-size: 16px;
-        color: $grey-paragraph;
-        font-family: $font-PT;
-        font-weight: 400;
-        font-style: italic;
-        text-align: center;
-    }
+	p {
+		font-size: 16px;
+		color: $grey-paragraph;
+		font-family: $font-PT;
+		font-weight: 400;
+		font-style: italic;
+		text-align: center;
+	}
 }
 
 .team-h {
-    padding-top: 65px;
-    padding-bottom: 84px;
+	padding-top: 65px;
+	padding-bottom: 84px;
 }
 
 .team-p {
-    padding: 19px 0 100px 0;
-    font-size: 16px;
-    letter-spacing: 0px;
-    color: $grey-paragraph;
-    font-family: $font-Roboto;
-    font-weight: 400;
+	padding: 19px 0 100px 0;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: $grey-paragraph;
+	font-family: $font-Roboto;
+	font-weight: 400;
 }
 
 .socialmedia-team {
-    padding: 0 59px;
-    display: inline-block;
+	padding: 0 59px;
+	display: inline-block;
 
-    li {
-        list-style: none;
-        float: left;
-        margin-right: 11px;
+	li {
+		list-style: none;
+		float: left;
+		margin-right: 11px;
 
-        a {
-            text-decoration: none;
-        }
+		a {
+			text-decoration: none;
+		}
 
-        i {
-            background-color: $grey-color;
-            color: $black-color;
-            width: 40px;
-            height: 40px;
-            border-radius: 20px;
-            padding-top: 10px;
-            border: 3px solid $black-i-color;
-        }
-    }
+		i {
+			background-color: $grey-color;
+			color: $black-color;
+			width: 40px;
+			height: 40px;
+			border-radius: 20px;
+			padding-top: 10px;
+			border: 3px solid $black-i-color;
+		}
+	}
 }
 // hover for socialmedia
 .fa-twitter:hover {
-    background-color: $twitter-color;
+	background-color: $twitter-color;
 }
 
 .fa-facebook-f:hover {
-    background-color: $facebook-color;
+	background-color: $facebook-color;
 }
 
 .fa-google:hover {
-    background-color: $google-color;
+	background-color: $google-color;
 }
 
 .fa-pinterest-p:hover {
-    background-color: $pinterest-color;
+	background-color: $pinterest-color;
 }
 
 .sponsor-background {
-    width: 100%;
-    padding: 57px 0;
+	width: 100%;
+	padding: 57px 0;
 }
 
 .contact-background {
-    background-image: url("../imgpng/backgroundcontact.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    position: relative;
-    background-size: cover;
+	background-image: url("../images/phone-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+	background-size: cover;
 }
 
 .contact {
-    h6 {
-        padding: 50px 0 0;
-        color: $white-color;
-        font-family: $font-montserrat;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 40px;
-        letter-spacing: -1px;
-    }
+	h6 {
+		padding: 50px 0 0;
+		color: $white-color;
+		font-family: $font-montserrat;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 40px;
+		letter-spacing: -1px;
+	}
 
-     p {
-        font-size: 16px;
-        color:$grey-paragraph;
-        font-family: $font-PT;
-        font-weight: 400;
-        font-style: italic;
-    }
+	p {
+		font-size: 16px;
+		color: $grey-paragraph;
+		font-family: $font-PT;
+		font-weight: 400;
+		font-style: italic;
+	}
 }
 
 .btn-background {
-    padding-top: 11px;
+	padding-top: 11px;
 }
 
 .socialmedia {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    li {
-        list-style: none;
-        float: left;
-        margin-right: 15px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	li {
+		list-style: none;
+		float: left;
+		margin-right: 15px;
 
-        a {
-            text-decoration: none;
+		a {
+			text-decoration: none;
 
-            i {
-                background-color: $black-color;
-                color: $white-color;
-                width: 35px;
-                height: 35px;
-                border-radius: 50%;
-                padding-top: 10px;
-            }
-        }
-    }
+			i {
+				background-color: $black-color;
+				color: $white-color;
+				width: 35px;
+				height: 35px;
+				border-radius: 50%;
+				padding-top: 10px;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 1199px) {
-    .welcome {
-    display: block;
-        h1 {
-            font-size: 50px;
-        }
+	.welcome {
+		display: block;
+		h1 {
+			font-size: 50px;
+		}
 
-        h3 {
-            font-size: 40px;
-        }
+		h3 {
+			font-size: 40px;
+		}
 
-        .button-welcome {
-            padding-top: 50px;
-        }
-    }
+		.button-welcome {
+			padding-top: 50px;
+		}
+	}
 
-    footer p {
-       margin-bottom: 0;
-    }
+	footer p {
+		margin-bottom: 0;
+	}
 
-    .socialmedia {
-        margin: 0 auto;
-    }
+	.socialmedia {
+		margin: 0 auto;
+	}
 
-    .socialmedia-team {
-        display: inline-block;
-        padding: 0;
-        li {
-            display: inline-block;
-            margin: 0 auto;
-            padding: 0 5px;
-        }
-    }
+	.socialmedia-team {
+		display: inline-block;
+		padding: 0;
+		li {
+			display: inline-block;
+			margin: 0 auto;
+			padding: 0 5px;
+		}
+	}
 
-    .calendar-left-text {
-        max-width: 34.5%;
-        p {
-            padding-left: 35px;
-        }
-    }
-    .calendar-right-text {
-        max-width: 34.5%;
-        p {
-            padding-right: 35px;
-        }
-    }
+	.calendar-left-text {
+		max-width: 34.5%;
+		p {
+			padding-left: 35px;
+		}
+	}
+	.calendar-right-text {
+		max-width: 34.5%;
+		p {
+			padding-right: 35px;
+		}
+	}
 }
 
 @media only screen and (max-width: 768px) {
-    .welcome {
-    display: block;
-        h1 {
-            font-size: 40px;
-        }
+	.welcome {
+		display: block;
+		h1 {
+			font-size: 40px;
+		}
 
-        h3 {
-            font-size: 30px;
-        }
+		h3 {
+			font-size: 30px;
+		}
 
-        .button-welcome {
-            padding-top: 100px;
-        }
-    }
+		.button-welcome {
+			padding-top: 100px;
+		}
+	}
 
-    // topbar action
-    .topbar.active {
-        ul {
-            position: absolute;
-            right: -15px;
-            top: 55px; 
-            li {
-                display: block;
-                float: none;
-            }
-        }
-    }
+	// topbar action
+	.topbar.active {
+		ul {
+			position: absolute;
+			right: -15px;
+			top: 55px;
+			li {
+				display: block;
+				float: none;
+			}
+		}
+	}
 
-    // responsive topbar
-    .topbar {
-        right: 20px;
-        .toggle-btn {
-            display: block;
-        }
-    }
+	// responsive topbar
+	.topbar {
+		right: 20px;
+		.toggle-btn {
+			display: block;
+		}
+	}
 
-    .topbar ul li a {
-        display: none;
-    }
+	.topbar ul li a {
+		display: none;
+	}
 
-    .topbar.active {
-        ul li a {
-            display: inline-block;
-        }
-    }
-    
-    .logo {
-        display: inline-block;
-        text-align: center;
-        position: relative;
-        margin: 10px auto 0;
-    }
+	.topbar.active {
+		ul li a {
+			display: inline-block;
+		}
+	}
 
-    .calendar-row {
-        min-height: 400px;
-        flex-direction: column;
-        align-items: center;
-    }
+	.logo {
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		margin: 10px auto 0;
+	}
 
-    .absolute {
-        position: static;
-    } 
+	.calendar-row {
+		min-height: 400px;
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .vertical-line {
-        display: none;
-    }
+	.absolute {
+		position: static;
+	}
 
-    .services p {
-        padding: 0 30px;
-    }
+	.vertical-line {
+		display: none;
+	}
 
-    .calendar-left-text {
-        display: block;
-        flex-direction: column;
-        text-align: center;
-        max-width: 100%;
-        h5 {
-            text-align: center;
-        }
-        p {
-            text-align: center;
-            padding: 0 30px;
-        }
-    }
+	.services p {
+		padding: 0 30px;
+	}
 
-    .calendar-right-text {
-        display: block;
-        flex-direction: column;
-        text-align: center;
-        max-width: 100%;
-        h5 {
-            text-align: center;
-        }
-        p {
-            text-align: center;
-            padding: 0 30px;
-        }
-    }
+	.calendar-left-text {
+		display: block;
+		flex-direction: column;
+		text-align: center;
+		max-width: 100%;
+		h5 {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+			padding: 0 30px;
+		}
+	}
 
-    footer {
-        padding: 25px 0 10px;
-        p {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-    }
+	.calendar-right-text {
+		display: block;
+		flex-direction: column;
+		text-align: center;
+		max-width: 100%;
+		h5 {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+			padding: 0 30px;
+		}
+	}
 
-    .socialmedia {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        top: 0;
-    }  
+	footer {
+		padding: 25px 0 10px;
+		p {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+	}
+
+	.socialmedia {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		top: 0;
+	}
 }
 
 @media only screen and (max-width: 468px) {
-    .welcome {
-        display: block;
-        h1 {
-            font-size: 32px;
-        }
-        
-        h3 {
-            font-size: 26px;
-        }
-    }
+	.welcome {
+		display: block;
+		h1 {
+			font-size: 32px;
+		}
 
-    .logo {
-        display: block;
-        position: relative;
-        text-align: center;
-    }
+		h3 {
+			font-size: 26px;
+		}
+	}
+
+	.logo {
+		display: block;
+		position: relative;
+		text-align: center;
+	}
 }
