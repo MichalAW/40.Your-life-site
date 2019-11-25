@@ -71,13 +71,12 @@ footer {
   font-size: 14px;
   font-weight: 400;
   line-height: 41px;
-  float: right;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   text-transform: uppercase;
   padding-top: 20px;
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  top: 0; }
+  z-index: 1; }
   .topbar .toggle-btn {
     cursor: pointer;
     float: right;
@@ -89,6 +88,18 @@ footer {
       height: 5px;
       background: #ffffff;
       margin: 5px 0; }
+  .topbar .photoapp {
+    display: inline-block;
+    margin: 0 20px 0 42px; }
+  .topbar .logo img {
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+    left: 211px; }
+  .topbar .design {
+    margin: 0 0 0 199px; }
+  .topbar .download {
+    margin: 0 0 0 40px; }
   .topbar ul li {
     display: block;
     float: left; }
@@ -121,15 +132,17 @@ footer {
   .welcome h1 {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    font-size: 55px;
+    font-size: 38px;
     font-weight: 700;
     text-transform: uppercase;
-    width: 100%; }
-  .welcome h3 {
+    width: 100%;
+    white-space: nowrap;
+    letter-spacing: 4px; }
+  .welcome p {
     color: #ffffff;
     font-family: "PT Serif", serif;
-    font-size: 40px;
-    letter-spacing: -1px;
+    font-size: 17px;
+    letter-spacing: 2px;
     margin-bottom: 27px;
     font-weight: 400; }
   .welcome .button-welcome {
@@ -181,7 +194,7 @@ footer {
 .btn {
   width: 240px;
   height: 65px;
-  background-color: #fed136;
+  background-color: #16a085;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
