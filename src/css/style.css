@@ -20,6 +20,13 @@ h2 {
   text-transform: uppercase;
   font-weight: 700; }
 
+h4 {
+  padding: 50px 0 0;
+  color: #baded9;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
 input[type=text], input[type=email] {
   font-size: 14px;
   letter-spacing: 0px;
@@ -148,18 +155,19 @@ footer {
   .welcome .button-welcome {
     padding-top: 37.6px; }
 
+.services-container {
+  background-color: #f5f5f7; }
+
 .services {
-  padding-top: 46px;
-  padding-bottom: 120px; }
+  padding-top: 96px; }
 
 .services-header {
   margin-bottom: 84px; }
-  .services-header h2 {
-    font-size: 40px;
-    letter-spacing: -1px;
-    line-height: 75px;
-    color: #222222;
+  .services-header h4 {
+    padding: 20px 0 0;
+    color: #16a085;
     font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
     font-weight: 700; }
   .services-header p {
     font-size: 16px;
@@ -435,19 +443,18 @@ footer {
   padding-top: 11px; }
 
 .socialmedia {
+  padding-bottom: 38px;
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%); }
   .socialmedia li {
     list-style: none;
-    float: left;
-    margin-right: 15px; }
+    float: left; }
     .socialmedia li a {
       text-decoration: none; }
       .socialmedia li a i {
-        background-color: #222222;
-        color: #ffffff;
+        color: white;
         width: 35px;
         height: 35px;
         border-radius: 50%;

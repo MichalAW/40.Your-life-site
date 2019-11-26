@@ -23,6 +23,14 @@ h2 {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+h4 {
+    padding: 50px 0 0;
+    color: $button-color;
+    font-family: $font-montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 //input and textarea for conctact sheet
 input[type=text], input[type=email] {
     font-size: 14px;

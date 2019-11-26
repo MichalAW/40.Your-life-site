@@ -119,20 +119,22 @@
 	}
 }
 
+.services-container {
+	background-color: $midbar-color;
+}
+
 .services {
-	padding-top: 46px;
-	padding-bottom: 120px;
+	padding-top: 96px;
 }
 
 .services-header {
 	margin-bottom: 84px;
 
-	h2 {
-		font-size: 40px;
-		letter-spacing: -1px;
-		line-height: 75px;
-		color: $black-color;
+	h4 {
+		padding: 20px 0 0;
+		color: $green-color;
 		font-family: $font-montserrat;
+		text-transform: uppercase;
 		font-weight: 700;
 	}
 
@@ -474,6 +476,7 @@
 }
 
 .socialmedia {
+	padding-bottom: 38px;
 	position: absolute;
 	top: 45%;
 	left: 50%;
@@ -481,14 +484,12 @@
 	li {
 		list-style: none;
 		float: left;
-		margin-right: 15px;
 
 		a {
 			text-decoration: none;
 
 			i {
-				background-color: $black-color;
-				color: $white-color;
+				color: white;
 				width: 35px;
 				height: 35px;
 				border-radius: 50%;
