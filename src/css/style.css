@@ -20,13 +20,6 @@ h2 {
   text-transform: uppercase;
   font-weight: 700; }
 
-h4 {
-  padding: 50px 0 0;
-  color: #baded9;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700; }
-
 input[type=text], input[type=email] {
   font-size: 14px;
   letter-spacing: 0px;
@@ -121,6 +114,9 @@ footer {
       color: #fed136; }
     .topbar ul a.active {
       color: #ffffff; }
+
+ul > li {
+  color: yellow; }
 
 .button-container {
   display: inline-block;

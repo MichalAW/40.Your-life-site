@@ -71,12 +71,14 @@
 			&:hover {
 				color: $orange-color;
 			}
+
 			&.active {
 				color: $white-color;
 			}
 		}
 	}
 }
+
 // hamburger button
 .button-container {
 	display: inline-block;
