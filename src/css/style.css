@@ -115,9 +115,6 @@ footer {
     .topbar ul a.active {
       color: #ffffff; }
 
-ul > li {
-  color: yellow; }
-
 .button-container {
   display: inline-block;
   width: 100%;
@@ -152,6 +149,9 @@ ul > li {
     padding-top: 37.6px; }
 
 .services-container {
+  background-color: #f5f5f7; }
+
+.community-container {
   background-color: #f5f5f7; }
 
 .services {
