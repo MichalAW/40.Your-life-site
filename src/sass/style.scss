@@ -139,21 +139,62 @@
 
 .services-header {
 	margin-bottom: 84px;
+	.container-padding {
+		padding-left: 68px;
 
+		h4 {
+			padding: 10px 0 30px 0;
+			color: $green-color;
+			font-family: $font-montserrat;
+			text-transform: uppercase;
+			font-weight: 700;
+			text-align: left;
+		}
+
+		p {
+			font-size: 14px;
+			color: $grey-paragraph;
+			font-family: $font-Incosolata;
+			font-weight: 400;
+			text-align: left;
+		}
+
+		.button-welcome {
+			padding-top: 28px
+		}
+
+		.btn {
+			float: left;
+		}
+	}
+
+	img {
+		display: flex;
+		bottom: 0px;
+		position: absolute;
+	}
+}
+
+.about-container {
 	h4 {
-		padding: 20px 0 0;
+		padding: 10px 0 30px 0;
 		color: $green-color;
 		font-family: $font-montserrat;
 		text-transform: uppercase;
 		font-weight: 700;
+		text-align: left;
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 14px;
 		color: $grey-paragraph;
-		font-family: $font-PT;
+		font-family: $font-Incosolata;
 		font-weight: 400;
-		font-style: italic;
+		text-align: left;
+	}
+
+	.button-welcome {
+		padding-top: 28px
 	}
 }
 
@@ -228,6 +269,10 @@
 	img {
 		width: 100%;
 	}
+}
+
+.contact-background {
+	padding: 290px 0 205px 0;
 }
 
 .portfolio-background {
