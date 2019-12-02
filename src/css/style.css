@@ -181,7 +181,8 @@ footer {
       padding-top: 28px; }
     .services-header .container-padding .btn {
       float: left; }
-  .services-header img {
+  .services-header .first-phone {
+    right: 20px;
     display: flex;
     bottom: 0px;
     position: absolute; }
@@ -242,50 +243,8 @@ footer {
   margin: 0 auto;
   text-align: center; }
 
-.background-portfolio {
-  background-color: #f7f7f7; }
-
-.portfolio-padding {
-  padding-bottom: 30px; }
-
-.portfolio {
-  padding: 50px 0 106px 0; }
-  .portfolio h2 {
-    font-size: 40px;
-    letter-spacing: -1px;
-    line-height: 75px; }
-  .portfolio .portfolio-p {
-    font-size: 16px;
-    color: #777777;
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: italic;
-    padding-bottom: 51px; }
-  .portfolio img {
-    width: 100%; }
-
 .contact-background {
   padding: 290px 0 205px 0; }
-
-.portfolio-background {
-  background-color: #ffffff; }
-
-.portfolio-header {
-  font-size: 18px;
-  letter-spacing: 0px;
-  color: #333333;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  padding-top: 23px;
-  margin: 0; }
-
-.portfolio-paragraph {
-  font-size: 14px;
-  color: #737373;
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-  padding-bottom: 25px; }
 
 .absolute {
   position: absolute; }
