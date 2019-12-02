@@ -158,34 +158,37 @@ footer {
   background-color: #f5f5f7; }
 
 .services {
-  padding-top: 96px; }
+  padding-top: 134px; }
 
-.services-header {
-  margin-bottom: 84px; }
-  .services-header .container-padding {
-    padding-left: 68px; }
-    .services-header .container-padding h4 {
-      padding: 10px 0 30px 0;
-      color: #16a085;
-      font-family: "Montserrat", sans-serif;
-      text-transform: uppercase;
-      font-weight: 700;
-      text-align: left; }
-    .services-header .container-padding p {
-      font-size: 14px;
-      color: #777777;
-      font-family: "Inconsolata", monospace;
-      font-weight: 400;
-      text-align: left; }
-    .services-header .container-padding .button-welcome {
-      padding-top: 28px; }
-    .services-header .container-padding .btn {
-      float: left; }
-  .services-header .first-phone {
+.services-header .container-padding {
+  padding-left: 68px; }
+  .services-header .container-padding h4 {
+    padding: 10px 0 30px 0;
+    color: #16a085;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left; }
+  .services-header .container-padding p {
+    font-size: 14px;
+    color: #777777;
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    text-align: left; }
+  .services-header .container-padding .button-welcome {
+    padding-top: 28px; }
+  .services-header .container-padding .btn {
+    float: left; }
+
+.services-header .phone-container {
+  display: flex; }
+  .services-header .phone-container .first-phone {
     right: 20px;
-    display: flex;
-    bottom: 0px;
-    position: absolute; }
+    bottom: 0px; }
+
+.second-phone {
+  position: absolute;
+  top: 23px; }
 
 .about-container h4 {
   padding: 10px 0 30px 0;
