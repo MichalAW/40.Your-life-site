@@ -176,9 +176,19 @@
 	}
 }
 
-.second-phone {
-	position: absolute;
-	top: 23px;
+.about-container {
+	.second-phone-container {
+		left: 48px;
+		display: flex;
+	}
+
+	.main-button {
+		text-align: left;
+	}
+	.slider {
+		padding: 47px 0 63px 0;
+		font: 700;
+	}
 }
 
 .about-container {

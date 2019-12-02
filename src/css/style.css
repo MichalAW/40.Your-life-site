@@ -186,9 +186,16 @@ footer {
     right: 20px;
     bottom: 0px; }
 
-.second-phone {
-  position: absolute;
-  top: 23px; }
+.about-container .second-phone-container {
+  left: 48px;
+  display: flex; }
+
+.about-container .main-button {
+  text-align: left; }
+
+.about-container .slider {
+  padding: 47px 0 63px 0;
+  font: 700; }
 
 .about-container h4 {
   padding: 10px 0 30px 0;
