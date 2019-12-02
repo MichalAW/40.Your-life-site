@@ -185,10 +185,19 @@
 	.main-button {
 		text-align: left;
 	}
+
 	.slider {
 		padding: 47px 0 63px 0;
-		font: 700;
+		font-weight: 700;
 	}
+
+	.btn {
+		margin-bottom: 0;
+	}
+}
+
+.community-container {
+	padding: 113px 0;
 }
 
 .about-container {
