@@ -426,18 +426,22 @@
 .email {
 	display: inline-block;
 	input {
-		padding: 29px 12px;
+		padding: 29px 75px;
 	}
 
-	button {
-		position: absolute;
-		top: 24px;
-		right: 20px;
-		padding: 15px 21px;
-		background-color: $green-color;
-		color: $white-color;
-		font-size: 18px;
-		font-weight: 700;
+	.form-group {
+		display: flex;
+		flex-direction: row-reverse;
+		position: relative;
+		bottom: 60px;
+		button {
+			position: absolute;
+			padding: 15px 21px;
+			background-color: $green-color;
+			color: $white-color;
+			font-size: 18px;
+			font-weight: 700;
+		}
 	}
 }
 
