@@ -423,6 +423,24 @@
 	font-weight: 400;
 }
 
+.email {
+	display: inline-block;
+	input {
+		padding: 29px 12px;
+	}
+
+	button {
+		position: absolute;
+		top: 24px;
+		right: 20px;
+		padding: 15px 21px;
+		background-color: $green-color;
+		color: $white-color;
+		font-size: 18px;
+		font-weight: 700;
+	}
+}
+
 .socialmedia-team {
 	padding: 0 59px;
 	display: inline-block;

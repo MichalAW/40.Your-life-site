@@ -387,6 +387,20 @@ footer {
   font-family: "Roboto Slab", sans-serif;
   font-weight: 400; }
 
+.email input {
+  max-width: 339px;
+  padding: 28px; }
+
+.email button {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  padding: 15px 21px;
+  background-color: #16a085;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700; }
+
 .socialmedia-team {
   padding: 0 59px;
   display: inline-block; }
