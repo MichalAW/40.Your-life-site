@@ -435,7 +435,6 @@
 		position: relative;
 		bottom: 71px;
 		button {
-			position: absolute;
 			padding: 15px 21px;
 			background-color: $green-color;
 			color: $white-color;
@@ -444,6 +443,17 @@
 		}
 	}
 }
+
+.prefooter-container {
+	.input {
+		.form-group {
+			display: flex;
+			flex-direction: row-reverse;
+			bottom: 22px;
+			position: relative;
+		}
+	}
+} 
 
 .socialmedia-team {
 	padding: 0 59px;

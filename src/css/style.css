@@ -395,14 +395,19 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    bottom: 60px; }
+    bottom: 71px; }
     .email .form-group button {
-      position: absolute;
       padding: 15px 21px;
       background-color: #16a085;
       color: #ffffff;
       font-size: 18px;
       font-weight: 700; }
+
+.prefooter-container .input .form-group {
+  display: flex;
+  flex-direction: row-reverse;
+  bottom: 22px;
+  position: relative; }
 
 .socialmedia-team {
   padding: 0 59px;
