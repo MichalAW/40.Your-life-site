@@ -433,7 +433,7 @@
 		display: flex;
 		flex-direction: row-reverse;
 		position: relative;
-		bottom: 71px;
+		bottom: 60px;
 		button {
 			padding: 15px 21px;
 			background-color: $green-color;
@@ -445,12 +445,22 @@
 }
 
 .prefooter-container {
-	.input {
-		.form-group {
-			display: flex;
-			flex-direction: row-reverse;
-			bottom: 22px;
-			position: relative;
+	.btn {
+		width: 220px;
+		height: 45px;
+		background-color: #16a085;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 100px;
+		.input {
+			.form-prefooter {
+				display: flex;
+				flex-direction: row-reverse;
+				bottom: 22px;
+				position: relative;
+			}
 		}
 	}
 } 

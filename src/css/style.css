@@ -395,7 +395,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    bottom: 71px; }
+    bottom: 60px; }
     .email .form-group button {
       padding: 15px 21px;
       background-color: #16a085;
@@ -403,11 +403,20 @@ footer {
       font-size: 18px;
       font-weight: 700; }
 
-.prefooter-container .input .form-group {
-  display: flex;
-  flex-direction: row-reverse;
-  bottom: 22px;
-  position: relative; }
+.prefooter-container .btn {
+  width: 220px;
+  height: 45px;
+  background-color: #16a085;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 100px; }
+  .prefooter-container .btn .input .form-prefooter {
+    display: flex;
+    flex-direction: row-reverse;
+    bottom: 22px;
+    position: relative; }
 
 .socialmedia-team {
   padding: 0 59px;
