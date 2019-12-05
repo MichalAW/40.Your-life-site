@@ -403,26 +403,31 @@ footer {
       font-size: 18px;
       font-weight: 700; }
 
-.prefooter-container .btn {
-  width: 296px;
-  height: 56px;
-  background-color: #1abc9c;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 100px;
-  padding-top: 13px; }
-  .prefooter-container .btn .input .form-prefooter {
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    bottom: 41px; }
-    .prefooter-container .btn .input .form-prefooter .icon-container {
-      background-color: #16a085; }
-      .prefooter-container .btn .input .form-prefooter .icon-container i {
-        font-size: 30px;
-        padding: 13px 14px; }
+.prefooter-container .button-welcome {
+  display: flex;
+  flex-direction: column; }
+  .prefooter-container .button-welcome .btn {
+    width: 296px;
+    height: 56px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding-top: 13px;
+    display: flex; }
+    .prefooter-container .button-welcome .btn .input .form-prefooter {
+      display: flex;
+      flex-direction: row-reverse;
+      position: relative;
+      bottom: 13.7px;
+      left: 126px; }
+      .prefooter-container .button-welcome .btn .input .form-prefooter .icon-container {
+        background-color: #16a085; }
+        .prefooter-container .button-welcome .btn .input .form-prefooter .icon-container i {
+          font-size: 30px;
+          padding: 13px 14px; }
 
 .socialmedia-team {
   padding: 0 59px;

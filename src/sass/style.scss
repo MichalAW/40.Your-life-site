@@ -445,36 +445,41 @@
 }
 
 .prefooter-container {
-	.btn {
-		width: 296px;
-		height: 56px;
-		background-color: $light-green-color;
-		color: #ffffff;
-		font-size: 18px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 100px;
-		padding-top: 13px;
-		display: flex;
+	.button-welcome {
+		display:flex;
+		flex-direction: column;
 
-		span {
+		.btn {
+			width: 296px;
+			height: 56px;
+			background-color: $light-green-color;
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin-bottom: 100px;
+			padding-top: 13px;
+			display: flex;
 
-		}
-		.input {
+			span {
 
-			.form-prefooter {
-				display: flex;
-				flex-direction: row-reverse;
-				position: relative;
-				bottom: 13.7px;
-				left: 126px;
+			}
+			.input {
 
-				.icon-container {
-					background-color: $green-color;
+				.form-prefooter {
+					display: flex;
+					flex-direction: row-reverse;
+					position: relative;
+					bottom: 13.7px;
+					left: 126px;
 
-					i {
-						font-size: 30px;
-						padding: 13px 14px;
+					.icon-container {
+						background-color: $green-color;
+
+						i {
+							font-size: 30px;
+							padding: 13px 14px;
+						}
 					}
 				}
 			}
