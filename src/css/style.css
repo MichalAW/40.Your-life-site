@@ -419,12 +419,11 @@ footer {
     position: relative;
     bottom: 41px; }
     .prefooter-container .btn .input .form-prefooter .icon-container {
-      background-color: yellow;
-      padding: 14px 20px; }
+      background-color: yellow; }
       .prefooter-container .btn .input .form-prefooter .icon-container i {
         font-size: 30px;
         background-color: yellow;
-        padding: 12px 13px; }
+        padding: 13px 14px; }
 
 .socialmedia-team {
   padding: 0 59px;

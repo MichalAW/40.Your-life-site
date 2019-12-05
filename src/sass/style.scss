@@ -448,7 +448,7 @@
 	.btn {
 		width: 296px;
 		height: 56px;
-		background-color: #16a085;
+		background-color: $light-green-color;
 		color: #ffffff;
 		font-size: 18px;
 		font-weight: 700;
@@ -457,7 +457,7 @@
 		padding-top: 13px;
 
 		span {
-			
+
 		}
 		.input {
 
@@ -468,13 +468,11 @@
 				bottom: 41px;
 
 				.icon-container {
-					background-color: yellow;
-					padding: 14px 20px;
+					background-color: $green-color;
 
 					i {
 						font-size: 30px;
-						background-color: yellow;
-						padding: 12px 13px;
+						padding: 13px 14px;
 					}
 				}
 			}
