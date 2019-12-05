@@ -406,7 +406,7 @@ footer {
 .prefooter-container .btn {
   width: 296px;
   height: 56px;
-  background-color: #16a085;
+  background-color: #1abc9c;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
@@ -419,10 +419,9 @@ footer {
     position: relative;
     bottom: 41px; }
     .prefooter-container .btn .input .form-prefooter .icon-container {
-      background-color: yellow; }
+      background-color: #16a085; }
       .prefooter-container .btn .input .form-prefooter .icon-container i {
         font-size: 30px;
-        background-color: yellow;
         padding: 13px 14px; }
 
 .socialmedia-team {
