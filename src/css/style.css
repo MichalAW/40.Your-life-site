@@ -404,19 +404,27 @@ footer {
       font-weight: 700; }
 
 .prefooter-container .btn {
-  width: 220px;
-  height: 45px;
+  width: 296px;
+  height: 56px;
   background-color: #16a085;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  padding-top: 13px; }
   .prefooter-container .btn .input .form-prefooter {
     display: flex;
     flex-direction: row-reverse;
-    bottom: 22px;
-    position: relative; }
+    position: relative;
+    bottom: 41px; }
+    .prefooter-container .btn .input .form-prefooter .icon-container {
+      background-color: yellow;
+      padding: 14px 20px; }
+      .prefooter-container .btn .input .form-prefooter .icon-container i {
+        font-size: 30px;
+        background-color: yellow;
+        padding: 12px 13px; }
 
 .socialmedia-team {
   padding: 0 59px;
