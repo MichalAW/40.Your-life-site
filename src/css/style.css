@@ -404,8 +404,7 @@ footer {
       font-weight: 700; }
 
 .prefooter-container .button-welcome {
-  display: flex;
-  flex-direction: column; }
+  display: inline-block; }
   .prefooter-container .button-welcome .btn {
     width: 296px;
     height: 56px;
@@ -417,12 +416,14 @@ footer {
     margin-bottom: 100px;
     padding-top: 13px;
     display: flex; }
+    .prefooter-container .button-welcome .btn .input .store-prefooter {
+      left: 177px; }
     .prefooter-container .button-welcome .btn .input .form-prefooter {
       display: flex;
       flex-direction: row-reverse;
       position: relative;
       bottom: 13.7px;
-      left: 126px; }
+      left: 125px; }
       .prefooter-container .button-welcome .btn .input .form-prefooter .icon-container {
         background-color: #16a085; }
         .prefooter-container .button-welcome .btn .input .form-prefooter .icon-container i {

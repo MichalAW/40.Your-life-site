@@ -446,8 +446,7 @@
 
 .prefooter-container {
 	.button-welcome {
-		display:flex;
-		flex-direction: column;
+		display: inline-block;
 
 		.btn {
 			width: 296px;
@@ -461,17 +460,18 @@
 			padding-top: 13px;
 			display: flex;
 
-			span {
-
-			}
 			.input {
+
+				.store-prefooter {
+					left: 177px;
+				}
 
 				.form-prefooter {
 					display: flex;
 					flex-direction: row-reverse;
 					position: relative;
 					bottom: 13.7px;
-					left: 126px;
+					left: 125px;
 
 					.icon-container {
 						background-color: $green-color;
