@@ -466,12 +466,15 @@
 					left: 177px;
 				}
 
+				.play-prefooter {
+					left: 125px;
+				}
+
 				.form-prefooter {
 					display: flex;
 					flex-direction: row-reverse;
 					position: relative;
 					bottom: 13.7px;
-					left: 125px;
 
 					.icon-container {
 						background-color: $green-color;

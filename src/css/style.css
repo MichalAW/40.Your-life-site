@@ -418,12 +418,13 @@ footer {
     display: flex; }
     .prefooter-container .button-welcome .btn .input .store-prefooter {
       left: 177px; }
+    .prefooter-container .button-welcome .btn .input .play-prefooter {
+      left: 125px; }
     .prefooter-container .button-welcome .btn .input .form-prefooter {
       display: flex;
       flex-direction: row-reverse;
       position: relative;
-      bottom: 13.7px;
-      left: 125px; }
+      bottom: 13.7px; }
       .prefooter-container .button-welcome .btn .input .form-prefooter .icon-container {
         background-color: #16a085; }
         .prefooter-container .button-welcome .btn .input .form-prefooter .icon-container i {
