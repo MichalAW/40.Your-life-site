@@ -51,24 +51,15 @@ textarea[type=text] {
 
 footer {
     padding: 25px 0 36px 0;
-    text-align: center;  
     p {
         font-size: 14px;
         letter-spacing: 0px;
         line-height: 22px;
         font-family: $font-montserrat;
-        font-weight: 400;
+        font-weight: bold;
         color: $footer-color;
         display: block;
         text-align: left;
         margin-bottom: 0;
-    }
-
-    i {
-        background-color: $white-color;
-        color: $black-color;
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
     }
 }
