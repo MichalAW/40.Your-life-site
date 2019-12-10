@@ -287,13 +287,6 @@ footer {
 .calendar-background {
   padding-bottom: 115px; }
 
-.vertical-line {
-  border-left: thick solid #16a085;
-  position: absolute;
-  height: 5px;
-  display: block;
-  z-index: -1; }
-
 .calendar-row {
   display: flex;
   justify-content: center;
@@ -506,8 +499,12 @@ footer {
         border-radius: 50%;
         padding-top: 10px; }
 
-footer {
-  font-weight: bold; }
+.vertical-line {
+  border-left: thick solid #16a085;
+  position: absolute;
+  height: 15px;
+  display: block;
+  z-index: -1; }
 
 @media only screen and (max-width: 1199px) {
   .welcome {
