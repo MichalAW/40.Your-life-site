@@ -445,6 +445,11 @@
 }
 
 .prefooter-container {
+
+	.services-header {
+		padding: 0 250px;
+	}
+
 	.button-welcome {
 		display: inline-block;
 
@@ -591,6 +596,10 @@
 			}
 		}
 	}
+}
+
+footer {
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 1199px) {

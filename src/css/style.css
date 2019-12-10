@@ -403,6 +403,9 @@ footer {
       font-size: 18px;
       font-weight: 700; }
 
+.prefooter-container .services-header {
+  padding: 0 250px; }
+
 .prefooter-container .button-welcome {
   display: inline-block; }
   .prefooter-container .button-welcome .btn {
@@ -509,6 +512,9 @@ footer {
         height: 35px;
         border-radius: 50%;
         padding-top: 10px; }
+
+footer {
+  font-weight: bold; }
 
 @media only screen and (max-width: 1199px) {
   .welcome {
