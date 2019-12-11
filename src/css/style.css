@@ -54,6 +54,8 @@ footer {
     display: block;
     text-align: left;
     margin-bottom: 0; }
+  footer .container {
+    display: flex; }
 
 .about {
   text-align: center;
