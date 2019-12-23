@@ -508,10 +508,11 @@ footer {
 
 .container-footer {
   display: flex; }
-  .container-footer img {
-    bottom: 10px;
-    right: 20px;
-    position: absolute; }
+
+.container-img img {
+  bottom: 10px;
+  right: 50px;
+  position: absolute; }
 
 @media only screen and (max-width: 1199px) {
   .welcome {
