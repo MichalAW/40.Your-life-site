@@ -18,3 +18,5 @@
 6. "clean" - run rimraf
 7. "code-quality" - check code
 8. "format" - add preatier
+
+RWD do porpawy
