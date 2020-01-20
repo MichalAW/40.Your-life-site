@@ -625,15 +625,16 @@ footer {
     align-items: center;
     top: 0; } }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 550px) {
   .welcome {
     display: block; }
     .welcome h1 {
-      font-size: 32px; }
+      font-size: 26px; }
     .welcome h3 {
       font-size: 26px; }
-  .logo {
+  .topbar .logo {
     display: block;
     text-align: center;
-    left: 0px;
-    position: relative; } }
+    position: relative; }
+    .topbar .logo img {
+      left: 51px; } }
