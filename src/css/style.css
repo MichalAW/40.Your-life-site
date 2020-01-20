@@ -586,6 +586,8 @@ footer {
     align-items: center; }
   .absolute {
     position: static; }
+  .about-container .main-button {
+    text-align: center; }
   .vertical-line {
     display: none; }
   .services p {
