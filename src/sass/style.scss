@@ -659,6 +659,19 @@
 	}
 }
 
+@media only screen and (max-width: 999px) {
+
+	.topbar {
+		ul a {
+			padding: 0px;
+		}
+
+		.logo img {
+			left: 151px;
+		}
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.welcome {
 		display: block;
@@ -791,9 +804,15 @@
 		}
 	}
 
-	.logo {
-		display: block;
-		position: relative;
-		text-align: center;
+	.topbar {
+		.logo {
+			display: block;
+			text-align: center;
+			position: relative;
+			
+			img {
+				left: 51px;
+			}
+		}
 	}
 }

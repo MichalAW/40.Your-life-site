@@ -545,6 +545,12 @@ footer {
     .calendar-right-text p {
       padding-right: 35px; } }
 
+@media only screen and (max-width: 999px) {
+  .topbar ul a {
+    padding: 0px; }
+  .topbar .logo img {
+    left: 151px; } }
+
 @media only screen and (max-width: 768px) {
   .welcome {
     display: block; }
@@ -628,5 +634,6 @@ footer {
       font-size: 26px; }
   .logo {
     display: block;
-    position: relative;
-    text-align: center; } }
+    text-align: center;
+    left: 0px;
+    position: relative; } }
