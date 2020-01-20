@@ -736,8 +736,14 @@
 		position: static;
 	}
 
-	.about-container .main-button {
-    	text-align: center;
+	.about-container {
+		h4 {
+			text-align: center;
+		}
+		
+		.main-button {
+			text-align: center;
+		}
 	}
 
 	.vertical-line {
