@@ -750,8 +750,18 @@
 		display: none;
 	}
 
-	.services p {
-		padding: 0 30px;
+	.services { 
+		p {
+			padding: 0 30px;
+		}
+	}
+
+	.services-header {
+		.container-padding { 
+			.btn {
+				float: none;
+			}
+		}
 	}
 
 	.calendar-left-text {
