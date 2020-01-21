@@ -757,7 +757,12 @@
 	}
 
 	.services-header {
-		.container-padding { 
+		.container-padding {
+			
+			h4 {
+				text-align: center;
+			}
+
 			.btn {
 				float: none;
 			}

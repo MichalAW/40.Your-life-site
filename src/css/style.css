@@ -594,6 +594,10 @@ footer {
     display: none; }
   .services p {
     padding: 0 30px; }
+  .services-header .container-padding h4 {
+    text-align: center; }
+  .services-header .container-padding .btn {
+    float: none; }
   .calendar-left-text {
     display: block;
     flex-direction: column;
