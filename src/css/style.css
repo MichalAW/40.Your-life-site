@@ -630,7 +630,6 @@ footer {
       text-align: center;
       margin-bottom: 30px; }
   .socialmedia {
-    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
