@@ -1,5 +1,6 @@
 # Your-life-site
-40. Individual project called "Just od it"
+40. Individual project called "Just od it".
+# Designed site
 
 # repo -> https://github.com/MichalAW/Your-life-site.git
 
