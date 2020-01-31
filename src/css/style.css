@@ -600,6 +600,10 @@ footer {
     text-align: center; }
   .services-header .container-padding .btn {
     float: none; }
+  .container-img img {
+    bottom: 0px;
+    right: 0px;
+    position: static; }
   .calendar-left-text {
     display: block;
     flex-direction: column;
